@@ -30,7 +30,7 @@ export class InMemoryDataService implements InMemoryDbService {
                 evolution: 'Squirtle -> Wartortle -> Blastoise'
             },
         ];
-        return (pokemons);
+        return {pokemons};
     };
     genId(pokemons: Pokemon[]): number{
         return pokemons.length > 0 ? Math.max(...pokemons.map(pokemon => pokemon.id)) + 1 : 11;

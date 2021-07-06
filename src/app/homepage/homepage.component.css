@@ -1,0 +1,14 @@
+p{
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+html,body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

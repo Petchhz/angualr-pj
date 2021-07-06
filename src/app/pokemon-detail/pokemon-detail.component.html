@@ -1,8 +1,9 @@
 <div *ngIf = "pokemon">
     <h2>{{pokemon.name | uppercase}} Details</h2>
-    <p class="id">ID: {{pokemon.id}}</p>
-    <p class="name">NAME: {{pokemon.name}}</p>
-    <p class="type">TYPE: {{pokemon.type}}</p>
-    <p class="attack">ATTACK: {{pokemon.attack}}</p>
-    <p class="evolution">EVOLUTION: {{pokemon.evolution}}</p>
+    <p><span>ID: </span>{{pokemon.id}}</p>
+    <p><span>Name: </span>{{pokemon.name}}</p>
+    <p><span>Type: </span>{{pokemon.type}}</p>
+    <p><span>Attack: </span>{{pokemon.attack}}</p>
+    <p><span>Evolution: </span>{{pokemon.evolution}}</p>
+    <button (click)="goBack()">back</button>
 </div>
